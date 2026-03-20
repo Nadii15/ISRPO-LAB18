@@ -63,16 +63,52 @@
 // console.log(10 + "5");
 // console.log("10" - 5);
 
-const numbersArray = [1,2,3];
-numbersArray[0] = 10;
-console.log(numbersArray);
-numbersArray = [5,6,7];//Ошибка
+// const numbersArray = [1,2,3];
+// numbersArray[0] = 10;
+// console.log(numbersArray);
+// numbersArray = [5,6,7];//Ошибка
 
-const persons = {name: "Nadi", age: 18};
-persons.age = 50;
-persons.city = "Volgograd";
-console.log(persons);
-person = {name:"Stas"};//ошибка
+// const persons = {name: "Nadi", age: 18};
+// persons.age = 50;
+// persons.city = "Volgograd";
+// console.log(persons);
+// person = {name:"Stas"};//ошибка
+
+// console.log(typeof "текст");
+// console.log(typeof 42);
+// console.log(typeof true);
+// console.log(typeof undefined);
+// console.log(typeof null);
+// console.log(typeof {});
+// console.log(typeof []);
+// console.log(typeof function () {});
+
+// let numberX = null;
+// console.log(numberX === null);
+
+let num = 42;
+let str = String(num);
+let str2 = num.toString();
+let str3 = "" + num;
+
+let strNum = "123";
+let int = Number(strNum);
+let int2 = parseInt("42.5");
+let float = parseFloat("3.14");
+let int3 = +"99";
+
+let bool1 = Boolean(1);
+let bool2 = !!1;
+let bool3 = Boolean(0);
+let bool4 = Boolean("");
+
+console.log("5" + 3);
+console.log("5" - 3);
+console.log("5" * "2");
+console.log(true + 1);
+console.log(false + 1);
+console.log(null + 1);
+console.log(undefined + 1);
 
 
 
