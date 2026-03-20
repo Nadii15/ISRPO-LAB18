@@ -131,10 +131,25 @@
 // console.log(arr1 === arr2);
 
 
-let a2 = 5;
-let b2 = 10;
-console.log(a2 + b2);
-console.log(a2 * b2);
-console.log(a2 / b2);
-console.log(a2 - b2);
+// let a2 = 5;
+// let b2 = 10;
+// console.log(a2 + b2);
+// console.log(a2 * b2);
+// console.log(a2 / b2);
+// console.log(a2 - b2);
 
+// let yourAge = 18;
+
+// if (yourAge >= 18){
+//     console.log("Доступ разрешён");
+
+// }else {
+//     console.log("Доступ запрещён");
+// }
+
+// if (isStudent && age < 25) {
+//     console.log("Доступна студенческая скидка");
+
+// }
+
+let message = age >= 18? "Совершеннолетний" : "Несовершеннолетний";
