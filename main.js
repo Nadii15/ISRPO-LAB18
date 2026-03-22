@@ -164,81 +164,97 @@
 // }
 
 // 12.3. Практическое задание №1
-let temperature = 23 ;
-if (temperature < 0) {
-    console.log("Холодно");
-} else if (temperature >= 0 && temperature <= 20) {
-    console.log("Прохладно");
-} else {
-    console.log("Тепло");
-}
+// let temperature = 23 ;
+// if (temperature < 0) {
+//     console.log("Холодно");
+// } else if (temperature >= 0 && temperature <= 20) {
+//     console.log("Прохладно");
+// } else {
+//     console.log("Тепло");
+// }
 
 // 12.5. Практическое задание №2
 
-let isLoggedIn = true;  
-let isAdmin = false;    
+// let isLoggedIn = true;  
+// let isAdmin = false;    
 
-if (isLoggedIn && isAdmin) {
-    console.log("Полный доступ");
-} else if (isLoggedIn && !isAdmin) {
-    console.log("Ограниченный доступ");
-} else {
-    console.log("Доступ запрещён");
-}
+// if (isLoggedIn && isAdmin) {
+//     console.log("Полный доступ");
+// } else if (isLoggedIn && !isAdmin) {
+//     console.log("Ограниченный доступ");
+// } else {
+//     console.log("Доступ запрещён");
+// }
 
 // 12.6. Практическое задание №3
-let a3 = 10;
-let b3 = "10";
+// let a3 = 10;
+// let b3 = "10";
 
-console.log(`a3 = ${a3} (тип: ${typeof a3})`);
-console.log(`b3 = ${b3} (тип: ${typeof b3})`);
+// console.log(`a3 = ${a3} (тип: ${typeof a3})`);
+// console.log(`b3 = ${b3} (тип: ${typeof b3})`);
 
-console.log(`a3 == b3 (нестрогое): ${a3 == b3}`);   
-console.log(`a3 === b3 (строгое): ${a3 === b3}`);   
+// console.log(`a3 == b3 (нестрогое): ${a3 == b3}`);   
+// console.log(`a3 === b3 (строгое): ${a3 === b3}`);   
 
-console.log("Вывод: == приводит типы к одному виду, а === проверяет и значение, и тип.");
+// console.log("Вывод: == приводит типы к одному виду, а === проверяет и значение, и тип.");
 
 // 12.9. Практическое задание №4 (обзорное)
-let monthNumber = 5; 
+// let monthNumber = 5; 
 
-switch (monthNumber) {
-    case 1:
-        console.log("Январь");
-        break;
-    case 2:
-        console.log("Февраль");
-        break;
-    case 3:
-        console.log("Март");
-        break;
-    case 4:
-        console.log("Апрель");
-        break;
-    case 5:
-        console.log("Май");
-        break;
-    case 6:
-        console.log("Июнь");
-        break;
-    case 7:
-        console.log("Июль");
-        break;
-    case 8:
-        console.log("Август");
-        break;
-    case 9:
-        console.log("Сентябрь");
-        break;
-    case 10:
-        console.log("Октябрь");
-        break;
-    case 11:
-        console.log("Ноябрь");
-        break;
-    case 12:
-        console.log("Декабрь");
-        break;
-    default:
-        console.log("Неверный номер месяца");
-        break;
-}
+// switch (monthNumber) {
+//     case 1:
+//         console.log("Январь");
+//         break;
+//     case 2:
+//         console.log("Февраль");
+//         break;
+//     case 3:
+//         console.log("Март");
+//         break;
+//     case 4:
+//         console.log("Апрель");
+//         break;
+//     case 5:
+//         console.log("Май");
+//         break;
+//     case 6:
+//         console.log("Июнь");
+//         break;
+//     case 7:
+//         console.log("Июль");
+//         break;
+//     case 8:
+//         console.log("Август");
+//         break;
+//     case 9:
+//         console.log("Сентябрь");
+//         break;
+//     case 10:
+//         console.log("Октябрь");
+//         break;
+//     case 11:
+//         console.log("Ноябрь");
+//         break;
+//     case 12:
+//         console.log("Декабрь");
+//         break;
+//     default:
+//         console.log("Неверный номер месяца");
+//         break;
+// }
+
+//  Проверка типов данных
+
+let newPrice;
+
+newPrice = 100;
+
+console.log("Значение:", newPrice);
+console.log("Тип:", typeof newPrice);
+
+
+newPrice = "сто рублей";
+
+console.log("Значение:", newPrice);
+console.log("Тип:", typeof newPrice);
+
